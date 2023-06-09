@@ -1,14 +1,16 @@
 import java.util.Scanner;
 
-public class If_Else {
+public class Task_3_Cycle {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите число");
         int d = scanner.nextInt();
-        if (d > 7) {
-            System.out.println("Привет");
-        }else if(d < 5){
-            System.out.println("Пока");
+        int i;
+        for (i = 0; i <= d; i++) {
+            if (i % 3 == 0) {
+                System.out.println("Число кратное 3-" + " " + i);
+
+            }
         }
     }
 }

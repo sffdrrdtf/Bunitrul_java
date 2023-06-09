@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Switch {
+public class Task_2_Switch {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите имя");
